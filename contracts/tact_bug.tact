@@ -7,7 +7,7 @@ struct UserData{
 contract TactBug with Deployable {
     // a lot of random properties
     nickname: String? = null;
-    avatar: String? = null;
+    avatar: String? = "bob.avatar";
 
     init(){}
     get fun data(): UserData{
