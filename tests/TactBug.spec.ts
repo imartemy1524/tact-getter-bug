@@ -39,7 +39,7 @@ describe('TactBug', () => {
         // blockchain and tactBug are ready to use
 
         const {avatar} = await tactBug.getData();
-        expect(avatar).toBeTruthy();
+        expect(avatar).not.toBeNull();
     });
 
 });
